@@ -1,0 +1,81 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------------
+# Security-sensitive files
+# ---------------------------
+
+# Certificates and keys — must NEVER be committed
+certs/*.key
+certs/*.crt
+certs/*.pem
+certs/*.der
+certs/*
+
+# Transcripts — private per session
+transcripts/*
+!transcripts/.keep
+
+# ---------------------------
+# Environment variables
+# ---------------------------
+.env
+*.env
+
+# ---------------------------
+# OS / System junk
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Logs & runtime files
+# ---------------------------
+*.log
+*.out
+*.tmp
+
+# ---------------------------
+# Python build artifacts
+# ---------------------------
+build/
+dist/
+*.egg-info/
+
+# ---------------------------
+# Database dumps / sensitive DB files
+# ---------------------------
+*.sql
+*.dump
+*.bak
+
+# ---------------------------
+# Bytecode caches
+# ---------------------------
+__pycache__/
+
+# ---------------------------
+# Misc
+# ---------------------------
+*.pid
+*.lock
+
+
+.env
